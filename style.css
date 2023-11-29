@@ -13,9 +13,10 @@ body {
 }
 
 .clock-container {
-    width: 50%;
-    height: 50vh;
+    width: 600px;
+    height: 600px;
     background: url(images/anolog-clock.png) no-repeat center;
+    
     background-size: cover;
     position: relative;
 }
@@ -23,26 +24,28 @@ body {
 #hour, #minute, #second {
     position: absolute;
     background: black;
-    transform-origin: 0%;
+    transform-origin: bottom;
     border-radius: 10px;
     opacity: 0.7;
-    left: 50%;
 }
 #hour {
-    height: 2%;
-    width: 25%;
-    top: 49.5%;
+    height: 25%;
+    width: 2%;
+    top: 25%;
+    left: 49.5%;
+   
 } 
  #minute {
-    height: 1.6%;
-    width: 32%;
-    top: 49.8%;
-    left: 50%;
+    height: 32%;
+    width: 1.6%;
+    top: 18.8%;
+    left: 49.5%;
     
 }
 #second {
-    height: 0.8%;
-    width: 34%;
-    top: 50%;
+    height: 34%;
+    width: 0.8%;
+    top: 17%;
+    left: 49.8%;
     
 }
