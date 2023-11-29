@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E2E5D3;
+}
+
+.clock-container {
+    width: 50%;
+    height: 50vh;
+    background: url(images/anolog-clock.png) no-repeat center;
+    background-size: cover;
+    position: relative;
+}
+
+#hour, #minute, #second {
+    position: absolute;
+    background: black;
+    transform-origin: 0%;
+    border-radius: 10px;
+    opacity: 0.7;
+    left: 50%;
+}
+#hour {
+    height: 2%;
+    width: 25%;
+    top: 49.5%;
+} 
+ #minute {
+    height: 1.6%;
+    width: 32%;
+    top: 49.8%;
+    left: 50%;
+    
+}
+#second {
+    height: 0.8%;
+    width: 34%;
+    top: 50%;
+    
+}
